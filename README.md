@@ -84,11 +84,3 @@ classDiagram
     Main --> StudentService
     Main --> CourseService
     Main --> EnrollmentService
-
-    IdGenerator ..> Student : generates ID
-    IdGenerator ..> Course : generates ID
-    IdGenerator ..> Enrollment : generates ID
-
-
-Author
-Kundan Kumar
