@@ -84,3 +84,14 @@ classDiagram
     Main --> StudentService
     Main --> CourseService
     Main --> EnrollmentService
+
+    IdGenerator ..> Student : generates ID
+    IdGenerator ..> Course : generates ID
+    IdGenerator ..> Enrollment : generates ID
+
+---
+Submission branch created for evaluation.
+
+
+Author
+Kundan Kumar
